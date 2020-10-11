@@ -12,14 +12,14 @@ print("Oh..nama Anda", nama, ", nama bagus sekali. ")
 time.sleep(3)
 
 # input tahun lahir
-thnLahir = int(input("BTW... " + nama + "kamu lahir tahun berapa? "))
+thnLahir = int(input("BTW... " + nama + " , kamu lahir tahun berapa? "))
 
 # kasih jeda 3 detik
 time.sleep(3)
 
 # hitung usia user
 skrg = datetime.datetime.now()
-usia= skrg.year + thnLahir
+usia= skrg.year - thnLahir
 
 # tampilkan usia
 print("Hmmm...", nama,"kamu sudah", usia,"tahun ya..")
